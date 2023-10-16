@@ -1,0 +1,101 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: inline-block;
+    margin-left:30px;
+    margin-top:50px;
+    margin-bottom: 20px;    
+}
+.card-container{
+    display: flex;
+    width: 320px;
+    height: 300px;
+    position: relative;
+    color: aliceblue;
+    border-radius: 10px;
+
+    
+}
+.weather-content{
+    position: absolute;
+    top: 15px;
+}
+
+.card-img{
+        width: 100%; 
+        height: 100%; 
+        background-image: url('../media/backgrounds/mountain.jpg'); 
+        background-size: cover; 
+        background-position: center;  
+        filter: brightness(40%);   
+        border-radius: 10px;
+        transition: 0.4s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-container:hover .card-img{
+    filter: brightness(30%);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+.options{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+}
+
+.day{
+  font-size: 15px;
+  font-weight: 800;
+}
+.numday{
+    font-size: 18px;
+}
+.city{
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+}
+.iso{
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;  
+    background-color: sandybrown;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    position: absolute;
+}
+.sky{
+    font-size: 18px;
+}
+.region{
+margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    width: 270px;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: rgba(236, 236, 236, 0.423);
+    border-radius: 10px;
+}
+.detail-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rate{
+    font-weight: 900;
+}
+.weather-icon{
+    width: 70px;
+    height: 70px;
+}
+.cardoptions{
+    width: 30px;
+    height: 30px;
+}

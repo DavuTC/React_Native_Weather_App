@@ -1,0 +1,13 @@
+.bar{
+    height: 70px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.nav-header{
+    font-weight: 700;
+    font-size:larger;
+}

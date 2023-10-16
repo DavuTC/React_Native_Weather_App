@@ -1,0 +1,33 @@
+.container{ 
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode:darken;
+    position: relative;
+}
+.hero-img{
+    width: 100%; 
+    height: 100%; 
+    background-image: url('../media/backgrounds/sunny.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    filter: brightness(30%);
+}
+.content{
+    position: absolute;
+    padding-left: 20px;
+}
+.main-header{
+    font-size: 40px;
+    font-weight: 900;
+    color: whitesmoke;
+    
+}
+.expl-header{
+    font-size: 24px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+   
+}
